@@ -118,13 +118,11 @@
         
         <!-- CONTACT FORM-->
         
-        <form class="contact-right" id="contact-form">
-            <input type="text" id="name" placeholder="NAME">
-            <input type="text" id="email" placeholder="EMAIL">
-            <textarea id="message" placeholder="MESSAGE" rows="4" cols="50"></textarea>
-            <a href="mailto:humphreysrio1@gmail.com">
-                <button type="submit" class="contact" id="contact-btn">SEND MESSAGE</button>
-            </a>
+        <form class="contact-right" id="contact-form" action="https://formsubmit.co/humphreysrio6@gmail.com" method="POST">
+            <input type="text" id="name" name="name" placeholder="NAME">
+            <input type="text" id="email" name="email" placeholder="EMAIL">
+            <textarea id="message" placeholder="MESSAGE" name="message" rows="4" cols="50"></textarea>
+            <button type="submit" class="contact" id="contact-btn">SEND MESSAGE</button>
         </form>
 
         <!-- PAGE DIVIDER -->
@@ -137,7 +135,6 @@
             </a>
     
         </div>
-
     </footer>
 
 </body> 
